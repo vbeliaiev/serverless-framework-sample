@@ -4,7 +4,7 @@ module.exports.hello = async event => {
   return {
     statusCode: 200,
     body: JSON.stringify(
-      "Hello from Framework 123"
+      "Hello from Framework 123 update"
     ),
   };
 
